@@ -5,7 +5,9 @@ an osquery extension that enumerates vmware vm's present on a macos device.  thi
 the resulting table includes:
 
 `Path`: path to the vmx file
+
 `UUID`: is the `uuid.bios` of the vm which is by default is serial
+
 `Serial`: is not default, but we will report it if the user assigns one to the vm.
 
 ## build
